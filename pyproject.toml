@@ -1,0 +1,35 @@
+[project]
+name = "batchmatch"
+authors = [{ name = "Alston Lo", email = "alston@mit.edu" }]
+description = "Fast matching to a batch of molecular patterns."
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.0.0"
+
+dependencies = [
+    "numpy",
+    "networkx",
+    "rdkit",
+]
+
+[project.urls]
+repository = "https://github.com/alstonlo/batchmatch"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "tqdm",
+    "polars",
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["batchmatch"]
+
+[tool.pytest.ini_options]
+minversion = 6.0
+testpaths = ["tests"]
