@@ -5,7 +5,7 @@ description = "Fast matching to a batch of molecular patterns."
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.8"
-version = "0.0.0"
+version = "0.1.0"
 
 dependencies = [
     "numpy",
