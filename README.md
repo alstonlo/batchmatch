@@ -6,8 +6,6 @@
 
 <br>
 
----
-
 This package accelerates the matching of a query molecule to a large batch of patterns, given as SMARTS strings.
 This is a common subroutine in template-based retrosynthesis, where one is interested in which of 10-100k reaction
 templates are applicable for any given molecule. The key insight is that we can first use cheap heuristics
